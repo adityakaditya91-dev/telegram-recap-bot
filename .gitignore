@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Logs
+*.log
+cron.log
+
+# Local state
+last_update_id.txt
+
+# Environment variables
+.env
+
+# macOS Finder files
+.DS_Store
