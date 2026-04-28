@@ -23,18 +23,15 @@ A small Python script that pulls recent messages from a Telegram chat and sends 
 
 2.	Create and activate a virtual environment:
 
-  ```bash
   python -m venv venv
   source venv/bin/activate
 
 3.	Install dependencies:
 
-```bash
   pip install -r requirements.txt
 
 4.	Create a  .env  file:
  
-  ```bash
   TELEGRAM_BOT_TOKEN=your_bot_token
   CLIENT_CHAT_ID=your_chat_id
   MODEL_API_KEY=your_gemini_api_key
@@ -43,19 +40,13 @@ A small Python script that pulls recent messages from a Telegram chat and sends 
 
 Usage
 On-demand recap:
-
-  ```bash
   python test_recap.py
 
 Weekly-style recap:
-
-  ```bash
   python test_recap.py weekly
 
 Cron example (weekly)
 On macOS/Linux, you can add a cron entry like:
-
-    ```bash
     0 21 * * 0 cd "/Users/yourname/path/to/telegram recap bot" && "/Users/yourname/path/to/telegram recap   bot/venv/bin/python" test_recap.py weekly >> "/Users/yourname/path/to/telegram recap bot/cron.log" 2>&1
 
 This runs the weekly recap every Sunday at 21:00. 
