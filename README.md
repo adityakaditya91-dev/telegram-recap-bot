@@ -26,6 +26,7 @@ A small Python script that pulls recent messages from a Telegram chat and sends 
    ```bash
    python -m venv venv
    source venv/bin/activate
+   ```
 
 3.	Install dependencies:
 
