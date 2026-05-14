@@ -1,4 +1,4 @@
-# Telegram Recap Bot using Gemini (Scheduled and on-demand)
+# Telegram Recap Bot using Gemini (Scheduled and On-demand)
 
 A Python script that pulls recent messages from a Telegram chat and sends an AI-generated recap either:
 - automatically once a week (via cron), or
