@@ -186,14 +186,6 @@ def summarize_with_gemini(messages, mode="daily"):
 
 
 
-
-
-
-
-
-
-
-
 def send_message(text):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
     payload = {"chat_id": CHAT_ID, "text": text}
