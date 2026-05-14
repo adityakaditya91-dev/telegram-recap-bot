@@ -6,11 +6,11 @@ A Python script that pulls recent messages from a Telegram chat and sends an AI-
 
 ## Why I built this
 
-I read a lot of content during the week (articles, thought pieces, messages) but rarely go back to review them. Good ideas were getting lost to one-off reads instead of building into a consistent exploration of topics of interest.
+I read a lot of content during the week but rarely go back to review it. Good ideas were getting lost to one-off reads instead of building into a consistent exploration of topics of interest.
 
-I built this bot to solve this problem. Throughout the week, I forward anything worth remembering to a Telegram chat. Every Sunday, the bot pulls those messages and uses Gemini to generate a concise executive-style recap, which is delivered back to me automatically via cron. I can also trigger it on-demand whenever I need it.
+I built this bot to solve this problem. Throughout the week, I forward anything worth remembering (articles, thought pieces, and analyses on topics I'm tracking) to a Telegram chat. Every Sunday, the bot pulls those messages and uses Gemini to generate a concise executive-style recap, which is delivered back to me automatically via cron. I can also trigger it on-demand whenever I need it.
 
-The recap is structured into four sections: Summary, Themes, Questions to Consider, and Possible Next Steps.
+The recap is structured into four sections: Summary, Themes, Questions to Consider, and Next Steps.
 
 
 ## Features
